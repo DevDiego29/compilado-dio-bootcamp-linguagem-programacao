@@ -66,13 +66,13 @@ function sala(){
 
 //posso adicionar mais de 1 parametro para a mesma função por ex:
 
-carro("vermelha " , "jean")
+carro("vermelha " , "Diego")
 
 function carro(cor , nome){
     console.log("esse carro é da cor " + cor + "e seu proprietário é o " + nome)
 }
 
-// se eu nao declarar o parametro na chamada da função ela vasi retornar um valor defalt. ex:
+// se eu nao declarar o parametro na chamada da função ela vai retornar um valor defalt. ex:
 
 torradeira("3" , "32.90") // chamada da funçao
 
@@ -93,7 +93,7 @@ function torradeira (mesa , valor , nome = "cliente") {
 }
  // posso tambem colocar o valor tanto na chamada da função quanto dentro e o valor que predomina é o de fora
 
- torradeira("3" , "32.90" , "jean")
+ torradeira("3" , "32.90" , "Diego")
 
  function torradeira (mesa , valor , nome = "cliente") {
     console.log(`o numero da mesa é ${mesa}`)

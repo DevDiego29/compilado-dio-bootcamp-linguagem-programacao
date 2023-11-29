@@ -2,17 +2,18 @@
 
 let nomeDoJogador = "Diego o mago"
 let idade = 31
+let altura = 1.76
 let sexo = 'M'
-let numeroTelefone = "(83)99659-2546"
-let cpf = "101.409.944-75"
+let numeroTelefone = "(83)99456-2346"
+let cpf = "123.456.788-55"
 let selecionavel = true
 
 //comando de saída
 console.log("digite um nome para o seu jogador: ")
 
 //declarando uma variavel
-let nickname = " Diego o mago"
-var nome = "o magon Diego"  // var é usado para declarar variavel global
+let nickname = "Diego o mago"
+var nome = "o mago Diego"  // var é usado para declarar variavel global
 
 //concatenando uma mensagem fixa mais uma variavel
 console.log("bem vindo" + nickname)
